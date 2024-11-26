@@ -1,6 +1,6 @@
 # Next Gen TV Show Recommendations
 
-The **Next Gen TV Show Recommendations Project** is a collaboration with **DirecTV** via **Breakthrough Tech AI**. Our goal is to develop a popularity prediction model that helps producers decide which shows to greenlight for production by predicting how popular a TV show will be. The model leverages techniques such as sentiment analysis, topic modeling by **BERT**, **Natural Language Processing (NLP)**, and machine learning models like **Random Forest** to make predictions based on a large dataset.
+The **Next Gen TV Show Recommendations Project** is a collaboration with **DirecTV** via **Breakthrough Tech AI**. Our goal is to develop a **popularity prediction model** that helps producers decide which shows to greenlight for production. The model predicts how popular a TV show with machine learning techniques like **Linear Regression**, **Random Forest**, **Gradient Boosting**, and **XGBoost**. To complete our model, we went above and beyond in predicting missing genre values by using topic modeling with **BERT** and **Natural Language Processing**. 
 
 ---
 
@@ -21,9 +21,9 @@ The **Next Gen TV Show Recommendations Project** is a collaboration with **Direc
 
 ## Project Overview
 
-The **Next Gen TV Show Recommendations Project** involves analyzing a dataset of **150,000 items** to predict how popular TV shows will be using **BERT** for sentiment analysis, topic modeling, and **Random Forest** for making predictions. Our primary aim is to assist producers in selecting shows that are likely to attract large audiences by analyzing different features such as show descriptions, genre, language, and other metadata.
+The **Next Gen TV Show Recommendations Project** involves analyzing a dataset of **150,000 TV shows** to predict how popular TV shows will be. We used **BERT** for sentiment analysis, topic modeling, and **Linear Regression**, **Random Forest**, **Gradient Boosting**, and **XGBoost** for making predictions based on various show features.
 
-We have implemented multiple methodologies to preprocess the data, create machine learning models, and evaluate them. These steps include exploratory data analysis, data cleaning, feature engineering, model evaluation, and results visualization.
+We implemented multiple techniques to preprocess the data, train models, and evaluate them. The project spans across several notebooks, each addressing a different aspect of the data pipeline and model development.
 
 ---
 
@@ -33,7 +33,7 @@ We have implemented multiple methodologies to preprocess the data, create machin
 - **Jupyter Notebooks** for interactive development
 - **Pandas** for data manipulation
 - **NumPy** for numerical computations
-- **Scikit-Learn** for machine learning models (e.g., Random Forest)
+- **Scikit-Learn** for machine learning models (e.g., Linear Regression, Random Forest, Gradient Boosting)
 - **XGBoost** for advanced boosting algorithms
 - **BERT** and **NLP** techniques for text analysis
 - **SHAP** for model interpretability
@@ -67,7 +67,9 @@ Our modeling workflow includes the following steps:
    - Sentiment analysis and topic modeling to enhance the prediction capabilities.
 
 ### 3. **Modeling Techniques**  
+   - **Linear Regression** for baseline modeling and understanding the relationship between features and popularity.
    - **Random Forest** for classification tasks, using various features to predict show popularity.
+   - **Gradient Boosting** for improving performance by training multiple models sequentially.
    - **XGBoost** for advanced boosting, fine-tuning the hyperparameters for improved model performance.
 
 ### 4. **Model Evaluation**  
