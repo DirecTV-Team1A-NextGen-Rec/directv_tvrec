@@ -11,11 +11,6 @@ The **Next Gen TV Show Recommendations Project** is a collaboration with **Direc
 - [Data Sources](#data-sources)
 - [Modeling Methodologies](#modeling-methodologies)
 - [Getting Started](#getting-started)
-- [File Structure](#file-structure)
-- [Dependencies](#dependencies)
-- [Running the Notebooks](#running-the-notebooks)
-- [Results](#results)
-- [Contributing](#contributing)
 
 ---
 
@@ -98,7 +93,7 @@ git clone https://github.com/yourusername/next-gen-tv-show-recommendations.git
 cd next-gen-tv-show-recommendations
 ```
 
-1. Create a virtual environment (optional but recommended):
+1. (Optional, Recommended) Create a virtual environment:
 If you are using Anaconda, you can create a new environment with the necessary dependencies:
 ```bash 
 conda create --name tv-show-recommendation-env python=3.x
@@ -136,7 +131,9 @@ Using pip:
 pip install notebook
 ```
 
-4. Install VS Code:
+4. Install VS Code or Run in Jupyter Notebook:
+You can open our .ipynb files in VS Code or launch Jupyter Notebook.
+
 If you haven't installed VS Code, download and install it from ([here]([http://url.com](https://code.visualstudio.com/)).
 
 Make sure to install the Python and Jupyter extensions for VS Code:
@@ -144,7 +141,12 @@ Make sure to install the Python and Jupyter extensions for VS Code:
 - Search for "Python" and install it.
 - Search for "Jupyter" and install it.
 
-5. Download language models for spaCy and NLTK:
+Or, launch Jupyter Notebook on your terminal by running:
+```bash
+jupyter notebook
+```
+
+5. If prompted, download language models for spaCy and NLTK:
 For spaCy (e.g., English model):
 ```bash
 python -m spacy download en_core_web_sm
@@ -155,11 +157,7 @@ import nltk
 nltk.download('stopwords')
 nltk.download('punkt')
 ```
-6. Run Jupyter Notebook:
-Once you have installed the dependencies, you can open a .ipynb file in VS Code or launch Jupyter Notebook by running:
-```bash
-jupyter notebook
-```
+
 
 
 
