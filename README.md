@@ -161,7 +161,7 @@ Enjoy!
 - Made with love by Serena, Safia, Mahsa, Jonathan, Caleb
 
 ## Shoutout 
-Special thank you to our TA Swagath and mentor Omer!
+Special thanks to our TA Swagath and mentor Omer!
 
 
 
