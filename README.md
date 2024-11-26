@@ -1,6 +1,8 @@
 # Next Gen TV Show Recommendations
 
-The **Next Gen TV Show Recommendations Project** is a collaboration with **DirecTV** via **Breakthrough Tech AI**. Our goal is to develop a **popularity prediction model** that helps producers decide which shows to greenlight for production. The model predicts how popular a TV show with machine learning techniques like **Linear Regression**, **Random Forest**, **Gradient Boosting**, and **XGBoost**. To complete our model, we went above and beyond in predicting missing genre values by using topic modeling with **BERT** and **Natural Language Processing**. 
+The **Next Gen TV Show Recommendations Project** is a collaboration with **DirecTV** via **Breakthrough Tech AI**. 
+
+Our goal is to develop a **popularity prediction model** that helps producers decide which shows to greenlight for production. The model predicts how popular a TV show with machine learning techniques like **Linear Regression**, **Random Forest**, **Gradient Boosting**. To complete our model, we went above and beyond in predicting missing genre values by using topic modeling with **BERT** and **Natural Language Processing** and using 2 additional models: **XGBoost** and **CatBoost** to supplement our findings. 
 
 ---
 
@@ -16,7 +18,7 @@ The **Next Gen TV Show Recommendations Project** is a collaboration with **Direc
 
 ## Project Overview
 
-The **Next Gen TV Show Recommendations Project** involves analyzing a dataset of **150,000 TV shows** to predict how popular TV shows will be. We used **BERT** for sentiment analysis, topic modeling, and **Linear Regression**, **Random Forest**, **Gradient Boosting**, and **XGBoost** for making predictions based on various show features.
+The **Next Gen TV Show Recommendations Project** involves analyzing a dataset of **150,000 TV shows** to predict how popular TV shows will be. We used **BERT** for sentiment analysis, topic modeling, and **Linear Regression**, **Random Forest**, **Gradient Boosting**, **XGBoost**, and **CatBoost** for making predictions based on various show features.
 
 We implemented multiple techniques to preprocess the data, train models, and evaluate them. The project spans across several notebooks, each addressing a different aspect of the data pipeline and model development.
 
@@ -94,54 +96,50 @@ cd next-gen-tv-show-recommendations
 ```
 
 1. (Optional, Recommended) Create a virtual environment:
-If you are using Anaconda, you can create a new environment with the necessary dependencies:
+- If you are using Anaconda, you can create a new environment with the necessary dependencies:
 ```bash 
 conda create --name tv-show-recommendation-env python=3.x
 conda activate tv-show-recommendation-env
 ```
 
-Alternatively, you can create a virtual environment using pip:
+- Alternatively, you can create a virtual environment using pip:
 ```bash 
 python -m venv tv-show-recommendation-env
 source tv-show-recommendation-env/bin/activate  # On Windows use `tv-show-recommendation-env\Scripts\activate`
 ```
 
 2. Install dependencies:
-If you're using **Conda**, you can install all necessary dependencies by running:
+- If you're using **Conda**, you can install all necessary dependencies by running:
 ```bash 
 conda install pandas numpy scikit-learn matplotlib seaborn spacy nltk
 conda install -c conda-forge xgboost catboost shap
 pip install transformers
 ```
 
-If you're using pip, run the following commands to install the necessary dependencies:
+- If you're using pip, run the following commands to install the necessary dependencies:
 ```bash 
 pip install pandas numpy scikit-learn matplotlib seaborn spacy nltk transformers
 pip install xgboost catboost shap
 ```
 
-3. Install Jupyter Notebook:
-If you don’t have Jupyter installed, you can install it using pip or conda:
-Using conda:
+3. Run in VS Code or Jupyter Notebook:
+- If you haven't installed VS Code, download and install it from ([here]([http://url.com](https://code.visualstudio.com/)).
+
+- Make sure to install the Python and Jupyter extensions for VS Code:
+  - Open VS Code, go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window.
+  - Search for "Python" and install it.
+  - Search for "Jupyter" and install it.
+
+- If you don’t have Jupyter installed, you can install it using pip or conda:
+  - Using conda:
 ```bash
 conda install -c conda-forge notebook
 ```
-Using pip:
+  - Using pip:
 ```bash
 pip install notebook
 ```
-
-4. Install VS Code or Run in Jupyter Notebook:
-You can open our .ipynb files in VS Code or launch Jupyter Notebook.
-
-If you haven't installed VS Code, download and install it from ([here]([http://url.com](https://code.visualstudio.com/)).
-
-Make sure to install the Python and Jupyter extensions for VS Code:
-- Open VS Code, go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window.
-- Search for "Python" and install it.
-- Search for "Jupyter" and install it.
-
-Or, launch Jupyter Notebook on your terminal by running:
+  - Next, launch Jupyter Notebook on your terminal by running:
 ```bash
 jupyter notebook
 ```
@@ -158,6 +156,12 @@ nltk.download('stopwords')
 nltk.download('punkt')
 ```
 
+Enjoy! 
+
+- Made with love by Serena, Safia, Mahsa, Jonathan, Caleb
+
+## Shoutout 
+Special thank you to our TA Swagath and mentor Omer!
 
 
 
