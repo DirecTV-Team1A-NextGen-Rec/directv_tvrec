@@ -123,7 +123,7 @@ pip install xgboost catboost shap
 ```
 
 3. Run in VS Code or Jupyter Notebook:
-- If you haven't installed VS Code, download and install it from [here](https://www.genome.gov/)](https://code.visualstudio.com/). 
+- If you haven't installed VS Code, download and install it from https://code.visualstudio.com/. 
 
 - Make sure to install the Python and Jupyter extensions for VS Code:
   - Open VS Code, go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window.
