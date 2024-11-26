@@ -145,11 +145,11 @@ jupyter notebook
 ```
 
 5. If prompted, download language models for spaCy and NLTK:
-For spaCy (e.g., English model):
+- For spaCy (e.g., English model):
 ```bash
 python -m spacy download en_core_web_sm
 ```
-For NLTK, you may need to download additional resources for text processing (e.g., stopwords):
+- For NLTK, you may need to download additional resources for text processing (e.g., stopwords):
 ```bash
 import nltk
 nltk.download('stopwords')
