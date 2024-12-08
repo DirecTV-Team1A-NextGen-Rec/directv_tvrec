@@ -1,6 +1,6 @@
 # Next Gen TV Show Recommendations
 
-The **Next Gen TV Show Recommendations Project** is a collaboration with **DirecTV** via **Breakthrough Tech AI**. 
+The **Next Gen TV Show Recommendations Project** is a collaboration with **DirecTV** via **Break Through Tech AI**. 
 
 Our goal is to develop a **popularity prediction model** that helps producers decide which shows to greenlight for production. The model predicts how popular a TV show with machine learning techniques like **Linear Regression**, **Random Forest**, **Gradient Boosting**. To complete our model, we went above and beyond in predicting missing genre values by using topic modeling with **BERT** and **Natural Language Processing** and using 2 additional models: **XGBoost** and **CatBoost** to supplement our findings. 
 
